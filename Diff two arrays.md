@@ -16,9 +16,7 @@ function diffArray(arr1, arr2) {
   return newArr.concat(arr2.filter(elem => arr1.indexOf(elem)<0));
 }
 ```
-When I actually implement this, I came across a problem. I used push method first. But when I did testing, I found [] is pushed
-to the array as well. I get an array after using filter, which is not suitable to use push as push applies to single element.
-So I took another way to merge arrays, which is concat.
+When I actually implement this, I came across a problem. '[]' is in the answer. I realised that I used push method first. I will get an array after using filter, which is not suitable to use push as push applies to single element. So I took another way to merge arrays, which is concat.
 
 ## Other solutions
 ```
