@@ -5,3 +5,5 @@ function steamrollArray(arr,newArr=[]) {
     
     return newArr;
 }
+
+// A clever way is to change it to string first and then transfer to array.
