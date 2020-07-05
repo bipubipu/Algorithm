@@ -3,7 +3,7 @@
 visit every 3rd door (i.e., door #3, #6, #9, ...), etc., until you only visit the 100th door.
 
 Implement a function to determine the state of the doors after the last pass. Return the final result in an array, with only the door number included in the array
-if it is open.
+if it is open. 
 */
 
 function getFinalOpenedDoors(numDoors) {
@@ -15,3 +15,4 @@ function getFinalOpenedDoors(numDoors) {
   }
   return arr;
  }
+/* After trying out on small number, we can find that only perfect number will be open.*/
