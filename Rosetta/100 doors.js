@@ -15,4 +15,4 @@ function getFinalOpenedDoors(numDoors) {
   }
   return arr;
  }
-/* After trying out on small number, we can find that only perfect number will be open.*/
+/* After trying out on small number, we can find that doors with perfect square number will be open.*/
